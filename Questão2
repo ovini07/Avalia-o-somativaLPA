@@ -1,0 +1,21 @@
+package avaliacaolpa;
+
+import java.util.Scanner;
+
+public class avaliacao2 {
+
+	public static void main(String[] args) {
+		Scanner ler = new Scanner(System.in);
+		double A, b, h;
+		System.out.println("Vamos calcular a área de um objeto! ");
+		System.out.print("Informe o valor da base :");
+		b = ler.nextDouble();
+		System.out.print("Informe o valor da altura :");
+		h = ler.nextDouble();
+		A = b*h/2;
+		System.out.println("A área do triângulo é:"+A);
+		ler.close();
+		
+	}
+
+}
